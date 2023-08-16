@@ -18,7 +18,7 @@
         <Button x:Name="minus_button" Content="" HorizontalAlignment="Left" Margin="310,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="add_button_Copy1" Content="" HorizontalAlignment="Left" Margin="530,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="add_button_Copy2" Content="" HorizontalAlignment="Left" Margin="418,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
-        <Button x:Name="add_button_Copy3" Content="" HorizontalAlignment="Left" Margin="201,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="multiply_button" Content="" HorizontalAlignment="Left" Margin="201,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="add_button_Copy4" Content="" HorizontalAlignment="Left" Margin="201,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="add_button_Copy5" Content="" HorizontalAlignment="Left" Margin="310,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="add_button_Copy6" Content="" HorizontalAlignment="Left" Margin="418,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
