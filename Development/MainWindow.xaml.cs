@@ -8,6 +8,9 @@ namespace Development
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// Default grey color of button - #FF707070
+    /// Default grey color of border - #FFABADB3
+    /// 
     public partial class MainWindow : Window
     {
         public MainWindow()
