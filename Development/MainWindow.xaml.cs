@@ -22,6 +22,7 @@ namespace Development
             log_button.Click += Log_Click;
             factorial_button.Click += Factorial_Click;
             tan_button.Click += Tan_Click;
+            sin_button.Click += Sin_Click;
 
 
         }
@@ -71,7 +72,10 @@ namespace Development
 
         }
 
+        private void Sin_Click(object sender, EventArgs e)
+        {
 
+        }
 
 
 
