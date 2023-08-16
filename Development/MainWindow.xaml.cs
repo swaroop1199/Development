@@ -16,6 +16,7 @@ namespace Development
             add_button.Click += Add_Click;
             minus_button.Click += Minus_Click;
             multiply_button.Click += Multiply_Click;
+            divide_button.Click += Divide_Click;
 
 
         }
@@ -34,6 +35,14 @@ namespace Development
         {
 
         }
+
+        private void Divide_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
 
 
 
