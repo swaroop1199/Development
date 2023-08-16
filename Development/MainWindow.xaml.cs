@@ -307,7 +307,21 @@ namespace Development
 
         private void Factorial_Click(object sender, EventArgs e)
         {
-
+            float i,f=1;
+            if (input2.Text == "")
+            {
+                i = float.Parse(input1.Text);
+                for(int s = 1; s <= i; s++)
+                {
+                    f=f*s;
+                }
+                double resultfactorial = f;
+                result.Text = resultfactorial.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error: For log you cannot enter 2nd Value so please remove it and proceed");
+            }
         }
 
         private void Tan_Click(object sender, EventArgs e)
