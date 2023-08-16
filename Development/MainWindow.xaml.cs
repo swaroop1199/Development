@@ -302,7 +302,17 @@ namespace Development
 
         private void Tan_Click(object sender, EventArgs e)
         {
-
+            float i;
+            if(input2.Text == "")
+            {
+                i =float.Parse(input1.Text);
+                double resulttan = Math.Tan(i);
+                result.Text = resulttan.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error: For tan you cannot enter 2nd Value so please remove it and proceed");
+            }
         }
 
         private void Sin_Click(object sender, EventArgs e)
