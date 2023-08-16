@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Development"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="800">
+        Title="MainWindow" Height="570" Width="800">
     <Grid x:Name="grid" Height="450" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800">
 
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Width="500" CornerRadius="8,8,8,8" Margin="162,49,0,-48">
