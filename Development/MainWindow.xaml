@@ -934,7 +934,7 @@
         </Button>
         <Button Style="{DynamicResource ButtonStyle13}" x:Name="clear_button" Content="" HorizontalAlignment="Left" Height="28" Margin="392,234,0,0" VerticalAlignment="Top" Width="40" BorderBrush="Black" BorderThickness="2,2,2,2" Background="#FFACACAC" FontSize="16" FontWeight="Bold"/>
         <Button x:Name="on_button" Content="" HorizontalAlignment="Left" Height="26" Margin="592,137,0,0" VerticalAlignment="Top" Width="20"/>
-        <Label Content="CONSOLE&#xD;&#xA;" HorizontalAlignment="Left" Margin="363,54,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="White" Height="34"/>
+        <Label Content="CONSOLE&#xD;&#xA;" HorizontalAlignment="Left" Margin="358,52,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="Black" Height="34"/>
 
     </Grid>
 </Window>
