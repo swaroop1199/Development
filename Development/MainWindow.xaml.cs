@@ -317,7 +317,17 @@ namespace Development
 
         private void Sin_Click(object sender, EventArgs e)
         {
-
+            float i;
+            if (input2.Text == "")
+            {
+                i = float.Parse(input1.Text);
+                double resultsin = Math.Sin(i);
+                result.Text = resultsin.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error: For sin you cannot enter 2nd Value so please remove it and proceed");
+            }
         }
 
         private void Cos_Click(object sender, EventArgs e)
