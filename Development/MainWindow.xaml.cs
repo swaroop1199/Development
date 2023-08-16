@@ -19,6 +19,7 @@ namespace Development
             divide_button.Click += Divide_Click;
             powerraise_button.Click += Power_Click;
             squareroot_button.Click += Squareroot_Click;
+            log_button.Click += Log_Click;
 
 
         }
@@ -53,7 +54,10 @@ namespace Development
 
         }
 
+        private void Log_Click(object sender, EventArgs e)
+        {
 
+        }
 
 
 
