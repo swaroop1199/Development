@@ -260,7 +260,19 @@ namespace Development
 
         private void Power_Click(object sender, EventArgs e)
         {
-
+            if (input2.Text != "")
+            {
+                float i, j;
+                double pi = 3.14;
+                i = float.Parse(input1.Text);
+                j = float.Parse(input2.Text);
+                double resultpower = Math.Pow(i, j);
+                result.Text = resultpower.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error: Second value cannot be Null so Please enter 2nd value");
+            }
         }
 
         private void Squareroot_Click(object sender, EventArgs e)
