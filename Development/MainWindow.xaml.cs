@@ -14,6 +14,8 @@ namespace Development
         {
             InitializeComponent();
             add_button.Click += Add_Click;
+            minus_button.Click += Minus_Click;
+
 
         }
 
@@ -21,6 +23,12 @@ namespace Development
         {
 
         }
+
+        private void Minus_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
 
     }

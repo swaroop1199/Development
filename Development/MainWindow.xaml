@@ -15,7 +15,7 @@
         <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="237,0,0,187" TextWrapping="Wrap" Width="118" Height="45" VerticalAlignment="Bottom"/>
         <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="436,0,0,186" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="118" Height="46"/>
         <Button x:Name="add_button" Content="" HorizontalAlignment="Left" Margin="201,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
-        <Button x:Name="add_button_Copy" Content="" HorizontalAlignment="Left" Margin="310,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="minus_button" Content="" HorizontalAlignment="Left" Margin="310,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="add_button_Copy1" Content="" HorizontalAlignment="Left" Margin="530,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="add_button_Copy2" Content="" HorizontalAlignment="Left" Margin="418,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="add_button_Copy3" Content="" HorizontalAlignment="Left" Margin="201,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
