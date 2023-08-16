@@ -41,7 +41,7 @@ namespace Development
             cos_button.Click += Cos_Click;
             pi_button.Click += Pi_Click;
             clear_button.Click += Clear_Click;
-            off_button.Click += Off_Click;
+            off_button.MouseDoubleClick += Off_Click;
         }
 
         private void Off_Click(object sender, EventArgs e)
