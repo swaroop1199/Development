@@ -37,6 +37,21 @@ namespace Development
         }
 
 
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            int i = 0;
+            int j = 0;
+            for (i = 1; i < 2; i++)
+            {
+                input1.Text = input2.Text = alert.Text = result.Text = "";
+                Thread.Sleep(100);
+                alert.Text = "Console is Cleared";
+                Thread.Sleep(50);
+                j++;
+            }
+        }
+
+
         private void Add_Click(object sender, EventArgs e)
         {
             float i, j;
@@ -169,10 +184,7 @@ namespace Development
 
         }
 
-        private void Clear_Click(object sender, EventArgs e)
-        {
-
-        }
+    
 
 
 
