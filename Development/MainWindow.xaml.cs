@@ -26,9 +26,16 @@ namespace Development
             cos_button.Click += Cos_Click;
             pi_button.Click += Pi_Click;
             clear_button.Click += Clear_Click;
+            on_button.Click += On_Click;
 
 
         }
+
+        private void On_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
         private void Add_Click(object sender, EventArgs e)
         {
