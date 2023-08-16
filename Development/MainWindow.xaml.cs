@@ -277,7 +277,17 @@ namespace Development
 
         private void Squareroot_Click(object sender, EventArgs e)
         {
-
+            float i;
+            if(input2.Text == "")
+            {
+                i=float.Parse(input1.Text);
+                double resultsqrt = Math.Sqrt(i);
+                result.Text = resultsqrt.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error: For Square-root you cannot enter 2nd Value so please remove it and proceed");
+            }
         }
 
         private void Log_Click(object sender, EventArgs e)
