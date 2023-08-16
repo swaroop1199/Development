@@ -211,7 +211,51 @@ namespace Development
 
         private void Divide_Click(object sender, EventArgs e)
         {
+            float i, j;
+            double pi = 3.14;
 
+            if (input1.Text == pi.ToString())
+            {
+                i = float.Parse(input1.Text);
+                double resultDiv = i / pi;
+                result.Text = resultDiv.ToString();
+                alert.Text = "Action Performed is Divide";
+            }
+            else if (input1.Text == pi.ToString())
+            {
+                j = float.Parse(input2.Text);
+                double resultDiv = j / pi;
+                result.Text = resultDiv.ToString();
+                alert.Text = "Action Performed is Divide";
+            }
+            else if (input1.Text == "" && input2.Text == "")
+            {
+                alert.Text = "Alert: Please Enter Value!";
+            }
+            else if (input1.Text != "" && input2.Text == "")
+            {
+                i = float.Parse(input1.Text);
+                float k = 0;
+                double resultDiv = i / k;
+                result.Text = resultDiv.ToString();
+                alert.Text = "Action Performed is Divide";
+            }
+            else if (input1.Text == "" && input2.Text != "")
+            {
+                j = float.Parse(input2.Text);
+                float k = 0;
+                double resultDiv = j / k;
+                result.Text = resultDiv.ToString();
+                alert.Text = "Action Performed is Divide";
+            }
+            else
+            {
+                i = float.Parse(input1.Text);
+                j = float.Parse(input2.Text);
+                float resultDiv = i / j;
+                result.Text = resultDiv.ToString();
+                alert.Text = "Action Performed is Divide";
+            }
         }
 
         private void Power_Click(object sender, EventArgs e)
