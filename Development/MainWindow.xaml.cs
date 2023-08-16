@@ -39,8 +39,60 @@ namespace Development
 
         private void Add_Click(object sender, EventArgs e)
         {
+            float i, j;
+            double pi = 3.14;
+
+            if(input1.Text == pi.ToString())
+            {
+                i = float.Parse(input1.Text);
+                double resultAdd = i + pi;
+                result.Text = resultAdd.ToString();
+                alert.Text = "Action Performed is Addition";
+            }
+            else if (input1.Text == pi.ToString())
+            {
+                j = float.Parse(input2.Text);
+                double resultAdd = j + pi;
+                result.Text = resultAdd.ToString();
+                alert.Text = "Action Performed is Addition";
+            }
+            else if(input1.Text == "" && input2.Text =="")
+            {
+                alert.Text = "Alert: Please Enter Value!";
+            }
+            else if(input1.Text != "" && input2.Text == "")
+            {
+                i = float.Parse(input1.Text);
+                float k = 0;
+                double resultAdd = i + k;
+                result.Text = resultAdd.ToString();
+                alert.Text = "Action Performed is Addition";
+            }
+            else if (input1.Text == "" && input2.Text != "")
+            {
+                j = float.Parse(input2.Text);
+                float k = 0;
+                double resultAdd = j + k;
+                result.Text = resultAdd.ToString();
+                alert.Text = "Action Performed is Addition";
+            }
+            else
+            {
+                i = float.Parse(input1.Text);
+                j = float.Parse(input2.Text);
+                float resultAdd = i + j;
+                result.Text = resultAdd.ToString();
+                alert.Text = "Action Performed is Addition";
+            }
+
 
         }
+
+
+
+
+
+
 
         private void Minus_Click(object sender, EventArgs e)
         {
