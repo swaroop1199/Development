@@ -25,7 +25,7 @@
         <Button x:Name="cos_button" Content="" HorizontalAlignment="Left" Margin="530,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="squareroot_button" Content="" HorizontalAlignment="Left" Margin="310,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="tan_button" Content="" HorizontalAlignment="Left" Margin="418,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
-        <Button x:Name="add_button_Copy10" Content="" HorizontalAlignment="Left" Margin="530,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="pi_button" Content="" HorizontalAlignment="Left" Margin="530,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button Content="" HorizontalAlignment="Left" Height="28" Margin="381,225,0,0" VerticalAlignment="Top" Width="34"/>
 
     </Grid>

@@ -24,6 +24,7 @@ namespace Development
             tan_button.Click += Tan_Click;
             sin_button.Click += Sin_Click;
             cos_button.Click += Cos_Click;
+            pi_button.Click += Pi_Click;
 
 
         }
@@ -79,6 +80,11 @@ namespace Development
         }
 
         private void Cos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pi_Click(object sender, EventArgs e)
         {
 
         }
