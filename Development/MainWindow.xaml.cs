@@ -19,6 +19,15 @@ namespace Development
         public MainWindow()
         {
             InitializeComponent();
+            Thread.Sleep(1800);
+            alert.Text = "Please Double Click to Turn On Calculator!";
+            on_button.MouseDoubleClick += On_Click;
+        }
+
+        private void On_Click(object sender, EventArgs e)
+        {
+            alert.Text = "Now You Can Use Funtions";
+            MessageBox.Show("Alerts: Calculator is On. Now you can Use Functions");
             add_button.Click += Add_Click;
             minus_button.Click += Minus_Click;
             multiply_button.Click += Multiply_Click;
@@ -32,20 +41,14 @@ namespace Development
             cos_button.Click += Cos_Click;
             pi_button.Click += Pi_Click;
             clear_button.Click += Clear_Click;
-            on_button.Click += On_Click;
             off_button.Click += Off_Click;
-
-
-        }
-
-        private void On_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Off_Click(object sender, EventArgs e)
         {
-
+            alert.Text = "Turning Off";
+            MessageBox.Show("Alert: Calculator will Turn Off");
+            this.Close();
         }
 
 
@@ -114,11 +117,6 @@ namespace Development
 
 
         }
-
-
-
-
-
 
 
         private void Minus_Click(object sender, EventArgs e)
