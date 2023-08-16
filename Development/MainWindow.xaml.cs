@@ -10,6 +10,9 @@ namespace Development
     /// </summary>
     /// Default grey color of button - #FF707070
     /// Default grey color of border - #FFABADB3
+    /// green color for console - #FFA3EDAE
+    /// Blue color - #FF5A86B8/#FF638DBD
+    /// clear console yellow color - #FFD9C66B
     /// 
     public partial class MainWindow : Window
     {

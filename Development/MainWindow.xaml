@@ -901,38 +901,40 @@
     </Window.Resources>
     <Grid x:Name="grid" Height="450" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800">
 
-        <Border BorderBrush="Black" BorderThickness="2,2,2,2" HorizontalAlignment="Left" Width="500" CornerRadius="11,11,11,11" Margin="162,49,0,-48" Background="#FF5A86B8">
-            <TextBox Style="{DynamicResource TextBoxStyle1}" x:Name="result" Margin="71,30,0,0" TextWrapping="Wrap" Width="330" Height="75" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="52" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" BorderBrush="Black" Background="#FFA3EDAE" Opacity="0.8" BorderThickness="2.5,2.5,2.5,2.5"/>
+        <Border BorderBrush="Black" BorderThickness="2,2,2,2" HorizontalAlignment="Left" Width="500" CornerRadius="11,11,11,11" Margin="162,49,0,-60" Background="#FF638DBD">
+            <TextBox Style="{DynamicResource TextBoxStyle1}" x:Name="result" Margin="78,42,78,328" TextWrapping="Wrap" FontSize="54" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" BorderBrush="Black" Background="White" Opacity="0.8" BorderThickness="2.8,2.8,2.8,2.8"/>
         </Border>
-        <TextBox Style="{DynamicResource TextBoxStyle2}" x:Name="alert" Margin="237,163,235,0" TextWrapping="Wrap" Height="36" VerticalAlignment="Top" Width="328" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" BorderBrush="Black" Background="#FFA3EDAE" Opacity="0.8"/>
-        <TextBox Style="{DynamicResource TextBoxStyle3}" x:Name="input1" HorizontalAlignment="Left" Margin="237,0,0,198" TextWrapping="Wrap" Width="118" Height="45" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22" BorderBrush="Black"/>
-        <TextBox Style="{DynamicResource TextBoxStyle4}" x:Name="input2" HorizontalAlignment="Left" Margin="447,0,0,197" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="118" Height="46" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22" BorderBrush="Black"/>
-        <Button Style="{DynamicResource ButtonStyle1}" x:Name="add_button" HorizontalAlignment="Left" Margin="201,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="192,280,0,-42" Width="440" CornerRadius="11,11,11,11" Background="#FF42658D" Opacity="0.8"/>
+        <TextBox Style="{DynamicResource TextBoxStyle2}" x:Name="alert" Margin="243,183,0,0" TextWrapping="Wrap" Height="36" VerticalAlignment="Top" Width="339" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" BorderBrush="Black" Background="#FFF0F0F0" Opacity="0.8"/>
+        <TextBox Style="{DynamicResource TextBoxStyle3}" x:Name="input1" HorizontalAlignment="Left" Margin="243,0,0,180" TextWrapping="Wrap" Width="100" Height="45" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderBrush="Black" FontWeight="Bold" BorderThickness="0,0,0,0"/>
+        <TextBox Style="{DynamicResource TextBoxStyle4}" x:Name="input2" HorizontalAlignment="Left" Margin="482,0,0,179" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="100" Height="46" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderBrush="Black" FontWeight="Bold" BorderThickness="0,0,0,0"/>
+        <Button Style="{DynamicResource ButtonStyle1}" x:Name="add_button" HorizontalAlignment="Left" Margin="206,0,0,105" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
             <Image Height="29" Width="29" Source="/plus.png"/>
         </Button>
-        <Button Style="{DynamicResource ButtonStyle2}" x:Name="minus_button" HorizontalAlignment="Left" Margin="310,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+        <Button Style="{DynamicResource ButtonStyle2}" x:Name="minus_button" HorizontalAlignment="Left" Margin="310,0,0,105" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
             <Image Height="29" Width="29" Source="/minus-sign.png"/>
         </Button>
-        <Button Style="{DynamicResource ButtonStyle4}" x:Name="sin_button" Content="sin" HorizontalAlignment="Left" Margin="530,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold" BorderBrush="#FF5F5B5B"/>
-        <Button Style="{DynamicResource ButtonStyle3}" x:Name="log_button" Content="ln" HorizontalAlignment="Left" Margin="418,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold"/>
-        <Button Style="{DynamicResource ButtonStyle5}" x:Name="multiply_button" HorizontalAlignment="Left" Margin="201,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+        <Button Style="{DynamicResource ButtonStyle4}" x:Name="sin_button" Content="sin" HorizontalAlignment="Left" Margin="520,0,0,105" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold" BorderBrush="#FF5F5B5B"/>
+        <Button Style="{DynamicResource ButtonStyle3}" x:Name="log_button" Content="ln" HorizontalAlignment="Left" Margin="418,0,0,105" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold"/>
+        <Button Style="{DynamicResource ButtonStyle5}" x:Name="multiply_button" HorizontalAlignment="Left" Margin="206,0,0,39" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
             <Image Height="22" Width="22" Source="/multiply-mathematical-sign.png"/>
         </Button>
-        <Button Style="{DynamicResource ButtonStyle9}" x:Name="powerraise_button" Content="x^y" HorizontalAlignment="Left" Margin="201,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="24" FontWeight="Bold"/>
-        <Button Style="{DynamicResource ButtonStyle6}" x:Name="divide_button" HorizontalAlignment="Left" Margin="310,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+        <Button Style="{DynamicResource ButtonStyle9}" x:Name="powerraise_button" Content="x^y" HorizontalAlignment="Left" Margin="206,0,0,-25" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="24" FontWeight="Bold"/>
+        <Button Style="{DynamicResource ButtonStyle6}" x:Name="divide_button" HorizontalAlignment="Left" Margin="310,0,0,39" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
             <Image Height="29" Width="29" Source="/divide.png"/>
         </Button>
-        <Button Style="{DynamicResource ButtonStyle7}" x:Name="factorial_button" Content="X!" HorizontalAlignment="Left" Margin="418,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold"/>
-        <Button Style="{DynamicResource ButtonStyle8}" x:Name="cos_button" Content="cos" HorizontalAlignment="Left" Margin="530,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold"/>
-        <Button Style="{DynamicResource ButtonStyle10}" x:Name="squareroot_button" HorizontalAlignment="Left" Margin="310,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+        <Button Style="{DynamicResource ButtonStyle7}" x:Name="factorial_button" Content="X!" HorizontalAlignment="Left" Margin="418,0,0,39" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold"/>
+        <Button Style="{DynamicResource ButtonStyle8}" x:Name="cos_button" Content="cos" HorizontalAlignment="Left" Margin="520,0,0,39" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold"/>
+        <Button Style="{DynamicResource ButtonStyle10}" x:Name="squareroot_button" HorizontalAlignment="Left" Margin="310,0,0,-25" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
             <Image Height="37" Width="37" Source="/formula.png"/>
         </Button>
-        <Button Style="{DynamicResource ButtonStyle11}" x:Name="tan_button" Content="tan" HorizontalAlignment="Left" Margin="418,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold"/>
-        <Button Style="{DynamicResource ButtonStyle12}" x:Name="pi_button" HorizontalAlignment="Left" Margin="530,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+        <Button Style="{DynamicResource ButtonStyle11}" x:Name="tan_button" Content="tan" HorizontalAlignment="Left" Margin="418,0,0,-25" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541" FontSize="26" FontWeight="Bold"/>
+        <Button Style="{DynamicResource ButtonStyle12}" x:Name="pi_button" HorizontalAlignment="Left" Margin="522,0,0,-25" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
             <Image Height="28" Width="28" Source="/pi-number.png"/>
         </Button>
-        <Button Style="{DynamicResource ButtonStyle13}" x:Name="clear_button" Content="" HorizontalAlignment="Left" Height="28" Margin="381,225,0,0" VerticalAlignment="Top" Width="34" BorderBrush="Black" BorderThickness="2,2,2,2"/>
-        <Button x:Name="on_button" Content="" HorizontalAlignment="Left" Height="26" Margin="590,130,0,0" VerticalAlignment="Top" Width="20"/>
+        <Button Style="{DynamicResource ButtonStyle13}" x:Name="clear_button" Content="" HorizontalAlignment="Left" Height="28" Margin="392,234,0,0" VerticalAlignment="Top" Width="40" BorderBrush="Black" BorderThickness="2,2,2,2" Background="#FFACACAC" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="on_button" Content="" HorizontalAlignment="Left" Height="26" Margin="592,137,0,0" VerticalAlignment="Top" Width="20"/>
+        <Label Content="CONSOLE&#xD;&#xA;" HorizontalAlignment="Left" Margin="363,54,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="White" Height="34"/>
 
     </Grid>
 </Window>
