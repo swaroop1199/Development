@@ -146,6 +146,26 @@ namespace Development
 
         private void Pi_Click(object sender, EventArgs e)
         {
+            double pi = 3.14;
+
+            if(input1.Text != "" && input2.Text != "")
+            {
+                MessageBox.Show("Alert: Values Already Present Please Clear Console or Any One Field");
+            }
+            else if(input2.Text != "")
+            {
+                input1.Text = pi.ToString();
+                alert.Text = "Pi Value 3.14 is Used";
+            }
+            else if(input1.Text != "")
+            {
+                input2.Text = pi.ToString();
+                alert.Text = "Pi Value 3.14 is Used";
+            }
+            else if(input1.Text == "" && input2.Text == "")
+            {
+                alert.Text = "Alert: Please Enter Value!";
+            }
 
         }
 

@@ -8,12 +8,12 @@
         Title="MainWindow" Height="550" Width="800">
     <Grid x:Name="grid" Height="450" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800">
 
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Width="484" CornerRadius="8,8,8,8" Margin="0,46,0,-45">
-            <TextBox x:Name="result" Margin="76,30,76,0" TextWrapping="Wrap" Width="330" Height="75" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="52" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Width="500" CornerRadius="8,8,8,8" Margin="162,49,0,-48">
+            <TextBox x:Name="result" Margin="71,30,0,0" TextWrapping="Wrap" Width="330" Height="75" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="52" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
         </Border>
         <TextBox x:Name="alert" Margin="237,163,235,0" TextWrapping="Wrap" Height="36" VerticalAlignment="Top" Width="328" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="237,0,0,187" TextWrapping="Wrap" Width="118" Height="45" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22"/>
-        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="447,0,0,186" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="118" Height="46" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22"/>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="237,0,0,198" TextWrapping="Wrap" Width="118" Height="45" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="447,0,0,197" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="118" Height="46" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22"/>
         <Button x:Name="add_button" HorizontalAlignment="Left" Margin="201,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
             <Image Height="29" Width="29" Source="/plus.png"/>
         </Button>
