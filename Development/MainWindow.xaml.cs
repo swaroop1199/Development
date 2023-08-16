@@ -332,7 +332,17 @@ namespace Development
 
         private void Cos_Click(object sender, EventArgs e)
         {
-
+            float i;
+            if (input2.Text == "")
+            {
+                i = float.Parse(input1.Text);
+                double resultcos = Math.Cos(i);
+                result.Text = resultcos.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error: For cos you cannot enter 2nd Value so please remove it and proceed");
+            }
         }
 
         private void Pi_Click(object sender, EventArgs e)
