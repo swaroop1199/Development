@@ -1,0 +1,32 @@
+﻿<Window x:Class="Development.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Development"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid x:Name="grid" Height="450" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800">
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Width="484" CornerRadius="8,8,8,8" Margin="0,46,0,-38">
+            <TextBox x:Name="result" Margin="76,30,76,0" TextWrapping="Wrap" Width="330" Height="75" VerticalAlignment="Top"/>
+        </Border>
+        <TextBox x:Name="alert" Margin="237,163,235,0" TextWrapping="Wrap" Height="36" VerticalAlignment="Top" Width="328"/>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="237,0,0,187" TextWrapping="Wrap" Width="118" Height="45" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="436,0,0,186" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="118" Height="46"/>
+        <Button x:Name="add_button" Content="" HorizontalAlignment="Left" Margin="201,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy" Content="" HorizontalAlignment="Left" Margin="310,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy1" Content="" HorizontalAlignment="Left" Margin="530,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy2" Content="" HorizontalAlignment="Left" Margin="418,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy3" Content="" HorizontalAlignment="Left" Margin="201,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy4" Content="" HorizontalAlignment="Left" Margin="201,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy5" Content="" HorizontalAlignment="Left" Margin="310,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy6" Content="" HorizontalAlignment="Left" Margin="418,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy7" Content="" HorizontalAlignment="Left" Margin="530,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy8" Content="" HorizontalAlignment="Left" Margin="310,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy9" Content="" HorizontalAlignment="Left" Margin="418,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="add_button_Copy10" Content="" HorizontalAlignment="Left" Margin="530,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button Content="" HorizontalAlignment="Left" Height="28" Margin="381,225,0,0" VerticalAlignment="Top" Width="34"/>
+
+    </Grid>
+</Window>
