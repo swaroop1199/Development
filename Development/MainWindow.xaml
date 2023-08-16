@@ -8,22 +8,32 @@
         Title="MainWindow" Height="550" Width="800">
     <Grid x:Name="grid" Height="450" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800">
 
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Width="484" CornerRadius="8,8,8,8" Margin="0,46,0,-38">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Width="484" CornerRadius="8,8,8,8" Margin="0,46,0,-45">
             <TextBox x:Name="result" Margin="76,30,76,0" TextWrapping="Wrap" Width="330" Height="75" VerticalAlignment="Top"/>
         </Border>
         <TextBox x:Name="alert" Margin="237,163,235,0" TextWrapping="Wrap" Height="36" VerticalAlignment="Top" Width="328"/>
         <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="237,0,0,187" TextWrapping="Wrap" Width="118" Height="45" VerticalAlignment="Bottom"/>
-        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="436,0,0,186" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="118" Height="46"/>
-        <Button x:Name="add_button" Content="" HorizontalAlignment="Left" Margin="201,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
-        <Button x:Name="minus_button" Content="" HorizontalAlignment="Left" Margin="310,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="447,0,0,186" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="118" Height="46"/>
+        <Button x:Name="add_button" HorizontalAlignment="Left" Margin="201,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+            <Image Height="29" Width="29" Source="/add.png"/>
+        </Button>
+        <Button x:Name="minus_button" HorizontalAlignment="Left" Margin="310,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+            <Image Height="29" Width="29" Source="/minus-sign.png"/>
+        </Button>
         <Button x:Name="sin_button" Content="" HorizontalAlignment="Left" Margin="530,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="log_button" Content="" HorizontalAlignment="Left" Margin="418,0,0,118" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
-        <Button x:Name="multiply_button" Content="" HorizontalAlignment="Left" Margin="201,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="multiply_button" HorizontalAlignment="Left" Margin="201,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+            <Image Height="27" Width="27" Source="/multiply-mathematical-sign.png"/>
+        </Button>
         <Button x:Name="powerraise_button" Content="" HorizontalAlignment="Left" Margin="201,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
-        <Button x:Name="divide_button" Content="" HorizontalAlignment="Left" Margin="310,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="divide_button" HorizontalAlignment="Left" Margin="310,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+            <Image Height="29" Width="29" Source="/divide.png"/>
+        </Button>
         <Button x:Name="factorial_button" Content="" HorizontalAlignment="Left" Margin="418,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="cos_button" Content="" HorizontalAlignment="Left" Margin="530,0,0,47" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
-        <Button x:Name="squareroot_button" Content="" HorizontalAlignment="Left" Margin="310,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
+        <Button x:Name="squareroot_button" HorizontalAlignment="Left" Margin="310,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541">
+            <Image Height="40" Width="40" Source="/formula.png"/>
+        </Button>
         <Button x:Name="tan_button" Content="" HorizontalAlignment="Left" Margin="418,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="pi_button" Content="" HorizontalAlignment="Left" Margin="530,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="clear_button" Content="" HorizontalAlignment="Left" Height="28" Margin="381,225,0,0" VerticalAlignment="Top" Width="34"/>

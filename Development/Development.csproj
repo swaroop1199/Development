@@ -7,4 +7,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="add.png" />
+    <None Remove="divide.png" />
+    <None Remove="formula.png" />
+    <None Remove="minus-sign.png" />
+    <None Remove="multiply-mathematical-sign.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="add.png" />
+    <Resource Include="divide.png" />
+    <Resource Include="formula.png" />
+    <Resource Include="minus-sign.png" />
+    <Resource Include="multiply-mathematical-sign.png" />
+  </ItemGroup>
+
 </Project>
