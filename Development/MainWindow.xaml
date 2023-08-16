@@ -27,7 +27,7 @@
         <Button x:Name="tan_button" Content="" HorizontalAlignment="Left" Margin="418,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="pi_button" Content="" HorizontalAlignment="Left" Margin="530,0,0,-20" VerticalAlignment="Bottom" Width="90" Height="50" RenderTransformOrigin="0.517,0.541"/>
         <Button x:Name="clear_button" Content="" HorizontalAlignment="Left" Height="28" Margin="381,225,0,0" VerticalAlignment="Top" Width="34"/>
-        <Button x:Name="on_button" Content="" HorizontalAlignment="Left" Height="26" Margin="600,173,0,0" VerticalAlignment="Top" Width="20"/>
+        <Button x:Name="on_button" Content="" HorizontalAlignment="Left" Height="26" Margin="600,122,0,0" VerticalAlignment="Top" Width="20"/>
 
     </Grid>
 </Window>
