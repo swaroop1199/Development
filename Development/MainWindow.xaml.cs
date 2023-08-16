@@ -20,6 +20,7 @@ namespace Development
             powerraise_button.Click += Power_Click;
             squareroot_button.Click += Squareroot_Click;
             log_button.Click += Log_Click;
+            factorial_button.Click += Factorial_Click;
 
 
         }
@@ -55,6 +56,11 @@ namespace Development
         }
 
         private void Log_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Factorial_Click(object sender, EventArgs e)
         {
 
         }
