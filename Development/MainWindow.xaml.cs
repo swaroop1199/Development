@@ -292,7 +292,17 @@ namespace Development
 
         private void Log_Click(object sender, EventArgs e)
         {
-
+            float i;
+            if (input2.Text == "")
+            {
+                i = float.Parse(input1.Text);
+                double resultlog = Math.Log(i);
+                result.Text = resultlog.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error: For log you cannot enter 2nd Value so please remove it and proceed");
+            }
         }
 
         private void Factorial_Click(object sender, EventArgs e)
