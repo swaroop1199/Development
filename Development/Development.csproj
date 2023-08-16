@@ -13,6 +13,7 @@
     <None Remove="formula.png" />
     <None Remove="minus-sign.png" />
     <None Remove="multiply-mathematical-sign.png" />
+    <None Remove="plus.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +22,7 @@
     <Resource Include="formula.png" />
     <Resource Include="minus-sign.png" />
     <Resource Include="multiply-mathematical-sign.png" />
+    <Resource Include="plus.png" />
   </ItemGroup>
 
 </Project>
