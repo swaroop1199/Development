@@ -25,6 +25,7 @@ namespace Development
             sin_button.Click += Sin_Click;
             cos_button.Click += Cos_Click;
             pi_button.Click += Pi_Click;
+            clear_button.Click += Clear_Click;
 
 
         }
@@ -89,6 +90,10 @@ namespace Development
 
         }
 
+        private void Clear_Click(object sender, EventArgs e)
+        {
+
+        }
 
 
 
