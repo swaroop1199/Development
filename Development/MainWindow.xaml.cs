@@ -21,6 +21,7 @@ namespace Development
             squareroot_button.Click += Squareroot_Click;
             log_button.Click += Log_Click;
             factorial_button.Click += Factorial_Click;
+            tan_button.Click += Tan_Click;
 
 
         }
@@ -64,6 +65,13 @@ namespace Development
         {
 
         }
+
+        private void Tan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
 
 
 
