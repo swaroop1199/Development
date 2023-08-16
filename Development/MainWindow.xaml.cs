@@ -111,6 +111,52 @@ namespace Development
 
         private void Minus_Click(object sender, EventArgs e)
         {
+            float i, j;
+            double pi = 3.14;
+
+            if (input1.Text == pi.ToString())
+            {
+                i = float.Parse(input1.Text);
+                double resultSub = i - pi;
+                result.Text = resultSub.ToString();
+                alert.Text = "Action Performed is Substraction";
+            }
+            else if (input1.Text == pi.ToString())
+            {
+                j = float.Parse(input2.Text);
+                double resultSub = j - pi;
+                result.Text = resultSub.ToString();
+                alert.Text = "Action Performed is Substraction";
+            }
+            else if (input1.Text == "" && input2.Text == "")
+            {
+                alert.Text = "Alert: Please Enter Value!";
+            }
+            else if (input1.Text != "" && input2.Text == "")
+            {
+                i = float.Parse(input1.Text);
+                float k = 0;
+                double resultSub = i - k;
+                result.Text = resultSub.ToString();
+                alert.Text = "Action Performed is Substraction";
+            }
+            else if (input1.Text == "" && input2.Text != "")
+            {
+                j = float.Parse(input2.Text);
+                float k = 0;
+                double resultSub = j - k;
+                result.Text = resultSub.ToString();
+                alert.Text = "Action Performed is Substraction";
+            }
+            else
+            {
+                i = float.Parse(input1.Text);
+                j = float.Parse(input2.Text);
+                float resultSub = i - j;
+                result.Text = resultSub.ToString();
+                alert.Text = "Action Performed is Substraction";
+            }
+
 
         }
 
@@ -183,10 +229,6 @@ namespace Development
             }
 
         }
-
-    
-
-
 
 
     }
