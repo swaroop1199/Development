@@ -33,11 +33,17 @@ namespace Development
             pi_button.Click += Pi_Click;
             clear_button.Click += Clear_Click;
             on_button.Click += On_Click;
+            off_button.Click += Off_Click;
 
 
         }
 
         private void On_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Off_Click(object sender, EventArgs e)
         {
 
         }
