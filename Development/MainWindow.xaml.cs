@@ -162,7 +162,51 @@ namespace Development
 
         private void Multiply_Click(object sender, EventArgs e)
         {
+            float i, j;
+            double pi = 3.14;
 
+            if (input1.Text == pi.ToString())
+            {
+                i = float.Parse(input1.Text);
+                double resultMul = i * pi;
+                result.Text = resultMul.ToString();
+                alert.Text = "Action Performed is Multiplication";
+            }
+            else if (input1.Text == pi.ToString())
+            {
+                j = float.Parse(input2.Text);
+                double resultMul = j * pi;
+                result.Text = resultMul.ToString();
+                alert.Text = "Action Performed is Multiplication";
+            }
+            else if (input1.Text == "" && input2.Text == "")
+            {
+                alert.Text = "Alert: Please Enter Value!";
+            }
+            else if (input1.Text != "" && input2.Text == "")
+            {
+                i = float.Parse(input1.Text);
+                float k = 0;
+                double resultMul = i * k;
+                result.Text = resultMul.ToString();
+                alert.Text = "Action Performed is Multiplication";
+            }
+            else if (input1.Text == "" && input2.Text != "")
+            {
+                j = float.Parse(input2.Text);
+                float k = 0;
+                double resultMul = j * k;
+                result.Text = resultMul.ToString();
+                alert.Text = "Action Performed is Multiplication";
+            }
+            else
+            {
+                i = float.Parse(input1.Text);
+                j = float.Parse(input2.Text);
+                float resultMul = i * j;
+                result.Text = resultMul.ToString();
+                alert.Text = "Action Performed is Multiplication";
+            }
         }
 
         private void Divide_Click(object sender, EventArgs e)
